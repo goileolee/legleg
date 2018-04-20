@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/weather_checked_tab_ic" android:state_selected="true"/>
+    <item android:drawable="@mipmap/weather_unchecked_tab_ic"
+        android:state_focused="false"
+        android:state_checked="false"
+        android:state_selected="false" />
+
+</selector>

@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">legleg</string>
+    <string name="app_quit">再次点击，退出应用</string>
+    <string name="leftFragment_name">你的</string>
+    <string name="weather_name">天气</string>
+
+
+</resources>
