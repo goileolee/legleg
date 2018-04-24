@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 import io.reactivex.Observable;
+import okhttp3.ResponseBody;
 import retrofit2.http.Body;
 import retrofit2.http.FieldMap;
 import retrofit2.http.FormUrlEncoded;
@@ -15,6 +16,8 @@ import retrofit2.http.GET;
 import retrofit2.http.POST;
 import retrofit2.http.Query;
 import retrofit2.http.QueryMap;
+import retrofit2.http.Streaming;
+import retrofit2.http.Url;
 
 /**
  * Created by Goileo on 2018/4/16.
@@ -37,6 +40,11 @@ public interface ApiStores {
 
     @GET("api/two")
     Observable<RespModel<List<RespBean>>> apiTwo(@QueryMap Map<String, Object> params);
+
+    /** 下载文件 */
+    @GET
+    @Streaming
+    Observable<ResponseBody> apiDownloadFile(@Url String fileUrlStr);
 
 
     // POST 示例
