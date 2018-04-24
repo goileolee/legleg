@@ -158,7 +158,7 @@ Observable<RespModel<RespBean>> apiTest(@Url String url, @QueryMap Map<String, O
 
 演示
 
-![show](https://user-gold-cdn.xitu.io/2018/4/24/162f67a46f1aa7f1?w=360&h=640&f=gif&s=2000797)
+![show](https://github.com/goileolee/legleg/blob/master/show.gif)
 
 >记录在此，仅为学习！  
 感谢您的阅读！欢迎指正！  
