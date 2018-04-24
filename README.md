@@ -156,6 +156,10 @@ Observable<RespModel<RespBean>> apiTest(@Url String url, @QueryMap Map<String, O
 
 ## 写在后面
 
+演示
+
+![演示](https://user-gold-cdn.xitu.io/2018/4/24/162f67a46f1aa7f1?w=360&h=640&f=gif&s=2000797)
+
 >记录在此，仅为学习！  
 感谢您的阅读！欢迎指正！  
 [欢迎加入 Android 技术交流群，群号：155495090](https://jq.qq.com/?_wv=1027&k=5hr8OKj)
